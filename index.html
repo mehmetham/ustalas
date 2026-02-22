@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USTA Lastik ve Rot Balans </title>
+    <meta name="description" content="USTA Lastik ve Rot Balans - Maslak Oto Sanayi'de profesyonel lastik, rot balans ve oto servis hizmetleri.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: #f57c00;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .logo span {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .hero {
+            height: 50vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('./1.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #f57c00;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            margin: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e65100;
+        }
+
+        section {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #f57c00;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 30px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: 0;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 768px){
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <img src="./logo.jpg" title="USTA Lastik & Rot Balans" alt="Logo" width="200" />
+    </div>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Profesyonel Lastik ve Rot Balans Hizmeti</h1>
+        <p>Maslak'ta güvenilir ve kaliteli oto servis çözümleri</p>
+        <a href="tel:+905344114445" class="btn">Hemen Ara</a>
+        <a href="https://wa.me/905344114445" class="btn">WhatsApp</a>
+    </div>
+</section>
+
+<section>
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Lastik Değişimi</h3>
+            <p>Yazlık ve kışlık lastik değişimi profesyonel ekipmanlarla yapılır.</p>
+        </div>
+        <div class="service-box">
+            <h3>Rot Balans</h3>
+            <p>Aracınızın yol tutuşunu artıran hassas rot balans ayarı.</p>
+        </div>
+        <div class="service-box">
+            <h3>Jant & Kontrol</h3>
+            <p>Jant kontrolü, hava basıncı ayarı ve genel kontrol hizmetleri.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>İletişim</h2>
+    <p><strong>Yetkili:</strong> Nazım Kuru</p>
+    <p><strong>Telefon:</strong> +90 534 411 44 45</p>
+    <p><strong>E-posta:</strong> nazim@ustalastik.com</p>
+    <p><strong>Adres:</strong> Maslak Mh. Atatürk Oto San.Sit. 36. Sokak No: 1494-1495<br>
+    Sarıyer / İstanbul</p>
+
+    <iframe 
+        src="https://www.google.com/maps?q=Maslak+Atatürk+Oto+Sanayi+Sitesi+36+Sokak+Sarıyer+İstanbul&output=embed">
+    </iframe>
+</section>
+
+<footer>
+    © 2026 USTA Lastik ve Rot Balans | Tüm Hakları Saklıdır.
+</footer>
+
+</body>
+</html>
